@@ -29,7 +29,12 @@ lw $t2, userArr
 sub $sp, $sp, 12 #stack pointer initiated 
 
 
-sw 
+sw $t2, (sp)
+
+
+prgm1:
+
+li $t3,0
 
 
 
